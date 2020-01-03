@@ -1,0 +1,91 @@
+<!doctype html><!--声明文档类型 html5 单标签-->
+<html lang="zh-CN"><!--html的开始标签 双标签 存放网页的所有内容-->
+<head><!--头部:存放网页上给浏览器或是搜索引擎看的信息-->
+	<title></title><!--网页的名字-->
+  <meta charset="utf-8"><!--网页的语言-->
+	<meta name="keywords" content=""><!--网页的关键字信息-->
+	<meta name="decription" content=""><!--网页的简介-->
+	<style>
+		body,p{
+			margin:0;
+		}
+		.msg{
+			width:272px;
+			height:692px;
+			background-color:white;
+			margin:50px auto 0;
+		}
+		.msglist{
+			width:250px;
+			height:319px;
+			padding:10px;
+			border:1px solid #ddd;
+		}
+		.msglist+.msglist{
+			margin-top:10px;
+		}
+		.listmsg{
+			width:250px;
+			height:188px;
+		}
+		.listtitle{
+			width:250px;
+			height:12px;
+			font-size:12px;
+			font-weight:bold;
+			color:#666;
+			margin:17px 0 16px 0;
+		}
+		.listtag{
+			width:250px;
+			height:12px;
+			margin-bottom:14px;
+			color:#666;
+			font-size:12px;
+		}
+		p strong{
+			color:#ff0084;
+		}
+		.listtime{
+			width:250px;
+			height:12px;
+			margin-bottom:14px;
+			color:#666;
+			font-size:12px;
+		}
+		.listnum{
+			width:250px;
+			height:12px;
+			margin-bottom:7px;
+			font-size:12px;
+			color:#666;
+		}
+		p span{
+			color:#ff3300;
+			margin-right:14px;
+		}
+	</style>
+</head>
+<body><!--身体:存放用户在网页上能够看到的所有内容-->
+	<div class="msg">
+		<div class="msglist">
+			<div class="listmsg">
+				<img src="./images/6.jpg" alt="美女">
+			</div>
+			<p class="listtitle">动画便利店X果壳网《西门子洗衣机》...</p>
+			<p class="listtag"><strong>原创作品</strong> -影视- Monica Graphic</p>
+			<p class="listtime">3小时前上传</p>
+			<p class="listnum"><span class="num">1284</span>人气/<span class="num">11</span>评论/<span class="num">47</span>推荐</p>
+		</div>
+		<div class="msglist">
+			<div class="listmsg">
+				<img src="./images/7.jpg" alt="美女">
+			</div>
+			<p class="listtitle">动画便利店X果壳网《西门子洗衣机》...</p>
+			<p class="listtag"><strong>原创作品</strong> -影视- Monica Graphic</p>
+			<p class="listtime">3小时前上传</p>
+			<p class="listnum"><span class="num">1284</span>人气/<span class="num">11</span> 评论/<span class="num">47</span> 推荐</p>
+	</div>
+</body>
+</html><!--html的结束标签-->
+<!--body的背景颜色会向上传递，传给父元素->浏览器->显示窗口大小->body颜色 -->
